@@ -8,7 +8,6 @@ function HeaderComponent() {
     <div>
       <Navbar></Navbar>
       <Banner></Banner>
-      <Book></Book>
     </div>
   );
 }
