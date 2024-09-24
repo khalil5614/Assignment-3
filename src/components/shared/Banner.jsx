@@ -9,25 +9,19 @@ function Banner() {
     <div>
       <div className="carousel w-full">
         <div id="item1" className="carousel-item w-full">
-          <div className="hero bg-base-200 ">
-            <div className="hero-content flex-col lg:flex-row">
-              <div>
-                <h1 className="text-5xl font-bold">
-                  Unlock a World of Stories
-                </h1>
-                <p className="py-6">
-                  Find Your Next Favorite Book at Book Store
-                </p>
-                <button className="btn btn-primary">Buy Book</button>
-              </div>
-              <img src={book1} />
+          <div className="grid grid-cols-2 bg-base-200 w-full">
+            <div className="place-content-center text-center">
+              <h1 className="text-5xl font-bold">Unlock a World of Stories</h1>
+              <p className="py-6">Find Your Next Favorite Book at Book Store</p>
+              <button className="btn btn-primary">Buy Book</button>
             </div>
+            <img className=" m-auto" src={book1} />
           </div>
         </div>
         <div id="item2" className="carousel-item w-full">
           <div className="hero bg-base-200 ">
             <div className="hero-content flex-col lg:flex-row">
-              <div>
+              <div className="place-content-center text-center">
                 <h1 className="text-5xl font-bold">
                   Unlock a World of Stories
                 </h1>
@@ -43,7 +37,7 @@ function Banner() {
         <div id="item3" className="carousel-item w-full">
           <div className="hero bg-base-200 ">
             <div className="hero-content flex-col lg:flex-row">
-              <div>
+              <div className="place-content-center text-center">
                 <h1 className="text-5xl font-bold">
                   Unlock a World of Stories
                 </h1>
@@ -59,7 +53,7 @@ function Banner() {
         <div id="item4" className="carousel-item w-full">
           <div className="hero bg-base-200 ">
             <div className="hero-content flex-col lg:flex-row">
-              <div>
+              <div className="place-content-center text-center">
                 <h1 className="text-5xl font-bold">
                   Unlock a World of Stories
                 </h1>

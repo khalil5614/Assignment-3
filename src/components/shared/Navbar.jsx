@@ -62,7 +62,7 @@ function Navbar() {
       </div>
       <div className="navbar-end">
         <a className="btn btn-primary mr-2">Buy Book</a>
-        <a className="btn btn-primary mr-5">Sign In</a>
+        <a className="btn btn-primary ">Sign In</a>
       </div>
     </div>
   );
