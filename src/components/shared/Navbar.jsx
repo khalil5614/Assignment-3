@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from "../../assets/book-shop.png";
 function Navbar() {
   return (
     <div className="navbar bg-base-100">
@@ -39,7 +39,10 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">Book Store</a>
+        <div className="btn btn-ghost">
+          <img className="w-14" src={logo} alt="Logo" />
+          <a className="text-xl">Book Store</a>
+        </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
