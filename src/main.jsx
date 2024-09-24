@@ -12,6 +12,9 @@ import ErrorPage from "./pages/ErrorPage.jsx";
 import CommonLayout from "./components/shared/CommonLayout.jsx";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import FAQPage from "./pages/FAQPage.jsx";
+import AboutPage from "./pages/AboutPage.jsx";
+import BlogPage from "./pages/BlogPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +34,18 @@ const router = createBrowserRouter([
         //   fetch("./books.json").filter((book)=>(book.id==params.bookId))}),
         path: "/bookdetails/:id",
         element: <BookDetailsPage />,
+      },
+      {
+        path: "/faq",
+        element: <FAQPage />,
+      },
+      {
+        path: "/about",
+        element: <AboutPage />,
+      },
+      {
+        path: "/blog",
+        element: <BlogPage />,
       },
     ],
   },

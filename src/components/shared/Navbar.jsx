@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/book-shop.png";
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="navbar bg-base-100">
@@ -26,37 +27,39 @@ function Navbar() {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Home</a>
+              <Link to={"/"}>Home</Link>
             </li>
             <li>
-              <a>About</a>
+              <Link to={"/about"}>About</Link>
             </li>
             <li>
-              <a>Blog</a>
+              <Link to={"/blog"}>Blog</Link>
             </li>
             <li>
-              <a>FAQ</a>
+              <Link to={"/faq"}>FAQ</Link>
             </li>
           </ul>
         </div>
-        <div className="btn btn-ghost">
-          <img className="w-14" src={logo} alt="Logo" />
-          <a className="text-xl">Book Store</a>
-        </div>
+        <Link to={"/"}>
+          <div className="btn btn-ghost">
+            <img className="w-14" src={logo} alt="Logo" />
+            <a className="text-xl">Book Store</a>
+          </div>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Home</a>
+            <Link to={"/"}>Home</Link>
           </li>
           <li>
-            <a>About</a>
+            <Link to={"/about"}>About</Link>
           </li>
           <li>
-            <a>Blog</a>
+            <Link to={"/blog"}>Blog</Link>
           </li>
           <li>
-            <a>FAQ</a>
+            <Link to={"/faq"}>FAQ</Link>
           </li>
         </ul>
       </div>
