@@ -9,9 +9,11 @@ function Banner() {
     <div>
       <div className="carousel w-full  bg-blue-100">
         <div id="item1" className="carousel-item  w-full">
-          <div className="grid grid-cols-2 w-full">
+          <div className="grid grid-cols-1 lg:grid-cols-2 w-full">
             <div className="place-content-center text-center">
-              <h1 className="text-5xl font-bold">Unlock a World of Stories</h1>
+              <h1 className="text-2xl lg:text-5xl font-bold">
+                Unlock a World of Stories
+              </h1>
               <p className="py-6">Find Your Next Favorite Book at Book Store</p>
               <button className="btn btn-primary">Buy Book</button>
             </div>
@@ -22,7 +24,7 @@ function Banner() {
           <div className="hero  ">
             <div className="hero-content flex-col lg:flex-row">
               <div className="place-content-center text-center">
-                <h1 className="text-5xl font-bold">
+                <h1 className="text-2xl lg:text-5xl font-bold">
                   Unlock a World of Stories
                 </h1>
                 <p className="py-6">
@@ -38,7 +40,7 @@ function Banner() {
           <div className="hero  ">
             <div className="hero-content flex-col lg:flex-row">
               <div className="place-content-center text-center">
-                <h1 className="text-5xl font-bold">
+                <h1 className="text-2xl lg:text-5xl font-bold">
                   Unlock a World of Stories
                 </h1>
                 <p className="py-6">
@@ -54,7 +56,7 @@ function Banner() {
           <div className="hero  ">
             <div className="hero-content flex-col lg:flex-row">
               <div className="place-content-center text-center">
-                <h1 className="text-5xl font-bold">
+                <h1 className="text-2xl lg:text-5xl font-bold">
                   Unlock a World of Stories
                 </h1>
                 <p className="py-6">
