@@ -50,7 +50,7 @@ function BookDetailsPage() {
       bookId + " " + bookName + " has been successfully added to Add to Cart."
     );
   return (
-    <div className="grid grid-cols-2 gap-2 p-5">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 p-5">
       <img src={image} className="shadow-2xl " />
       <div className=" ">
         <h1 className="text-3xl p-1">{bookName}</h1>
