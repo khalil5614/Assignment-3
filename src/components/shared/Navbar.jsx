@@ -64,7 +64,9 @@ function Navbar() {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn btn-primary mr-2">Buy Book</a>
+        <Link to={"/"} className="btn btn-primary mr-2">
+          Buy Book
+        </Link>
         <a className="btn btn-primary ">Sign In</a>
       </div>
     </div>

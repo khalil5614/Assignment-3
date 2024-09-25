@@ -3,6 +3,7 @@ import book1 from "../../assets/Book1.webp";
 import book2 from "../../assets/book2.jpg";
 import book3 from "../../assets/book3.webp";
 import book4 from "../../assets/book4.jpg";
+import { Link, useNavigate } from "react-router-dom";
 
 function Banner() {
   return (
@@ -15,7 +16,9 @@ function Banner() {
                 Unlock a World of Stories
               </h1>
               <p className="py-6">Find Your Next Favorite Book at Book Store</p>
-              <button className="btn btn-primary">Buy Book</button>
+              <Link to={"/"} className="btn btn-primary">
+                Buy Book
+              </Link>
             </div>
             <img className=" m-auto" src={book1} />
           </div>
@@ -30,7 +33,9 @@ function Banner() {
                 <p className="py-6">
                   Find Your Next Favorite Book at Book Store
                 </p>
-                <button className="btn btn-primary">Buy Book</button>
+                <Link to={"/"} className="btn btn-primary">
+                  Buy Book
+                </Link>
               </div>
               <img src={book2} />
             </div>
@@ -46,7 +51,9 @@ function Banner() {
                 <p className="py-6">
                   Find Your Next Favorite Book at Book Store
                 </p>
-                <button className="btn btn-primary">Buy Book</button>
+                <Link to={"/"} className="btn btn-primary">
+                  Buy Book
+                </Link>
               </div>
               <img src={book3} />
             </div>
@@ -62,7 +69,9 @@ function Banner() {
                 <p className="py-6">
                   Find Your Next Favorite Book at Book Store
                 </p>
-                <button className="btn btn-primary">Buy Book</button>
+                <Link to={"/"} className="btn btn-primary">
+                  Buy Book
+                </Link>
               </div>
               <img src={book4} />
             </div>
