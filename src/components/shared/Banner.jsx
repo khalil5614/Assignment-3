@@ -7,9 +7,9 @@ import book4 from "../../assets/book4.jpg";
 function Banner() {
   return (
     <div>
-      <div className="carousel w-full">
-        <div id="item1" className="carousel-item w-full">
-          <div className="grid grid-cols-2 bg-base-200 w-full">
+      <div className="carousel w-full  bg-blue-100">
+        <div id="item1" className="carousel-item  w-full">
+          <div className="grid grid-cols-2 w-full">
             <div className="place-content-center text-center">
               <h1 className="text-5xl font-bold">Unlock a World of Stories</h1>
               <p className="py-6">Find Your Next Favorite Book at Book Store</p>
@@ -19,7 +19,7 @@ function Banner() {
           </div>
         </div>
         <div id="item2" className="carousel-item w-full">
-          <div className="hero bg-base-200 ">
+          <div className="hero  ">
             <div className="hero-content flex-col lg:flex-row">
               <div className="place-content-center text-center">
                 <h1 className="text-5xl font-bold">
@@ -35,7 +35,7 @@ function Banner() {
           </div>
         </div>
         <div id="item3" className="carousel-item w-full">
-          <div className="hero bg-base-200 ">
+          <div className="hero  ">
             <div className="hero-content flex-col lg:flex-row">
               <div className="place-content-center text-center">
                 <h1 className="text-5xl font-bold">
@@ -51,7 +51,7 @@ function Banner() {
           </div>
         </div>
         <div id="item4" className="carousel-item w-full">
-          <div className="hero bg-base-200 ">
+          <div className="hero  ">
             <div className="hero-content flex-col lg:flex-row">
               <div className="place-content-center text-center">
                 <h1 className="text-5xl font-bold">
