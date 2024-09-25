@@ -5,7 +5,7 @@ const FAQPage = () => {
     <div>
       <p>
         <b>
-          9.1 What is React.js and Explain the concept of "components" in React.
+          What is React.js and Explain the concept of "components" in React.
         </b>
       </p>
       <p>
@@ -48,7 +48,7 @@ const FAQPage = () => {
         applications efficiently and maintainably.
       </p>
       <p>
-        <b>9.2 What is JSX in React, and how does it work?</b>
+        <b>What is JSX in React, and how does it work?</b>
       </p>
       <p>
         JSX (JavaScript XML) is a syntax extension for JavaScript that allows
@@ -69,7 +69,7 @@ const FAQPage = () => {
       </p>
       <p>
         <b>
-          9.3 What is the Virtual DOM, and how does React use it to optimize
+          What is the Virtual DOM, and how does React use it to optimize
           performance?
         </b>
       </p>
@@ -115,9 +115,7 @@ const FAQPage = () => {
         and repaints in the browser.
       </p>
       <p>
-        <b>
-          9.4 Explain the concept of "props" in React and how they are used.
-        </b>
+        <b>Explain the concept of "props" in React and how they are used.</b>
       </p>
       <p>
         In React, "props" (short for properties) are a core concept used to pass
@@ -137,7 +135,7 @@ const FAQPage = () => {
         how HTML attributes work.
       </p>
       <p>
-        <b>9.5 What is "state" in React, and how does it differ from props?</b>
+        <b>What is "state" in React, and how does it differ from props?</b>
       </p>
       <p>
         In React, state and props are two fundamental concepts used to manage
@@ -164,15 +162,42 @@ const FAQPage = () => {
       </p>
       <p>
         <b>
-          9.6 Explain the useState hook and provide an example of how it is
-          used.
+          Explain the useState hook and provide an example of how it is used.
         </b>
       </p>
       <p>
+        In React, the useState hook is a fundamental hook that allows you to add
+        state to functional components. Before hooks, state was only available
+        in class components, but with useState, functional components can also
+        manage and track state changes. How useState Works: It returns an array
+        with two elements: The current state value. A function to update the
+        state. You pass the initial state as an argument to useState. The
+        initial state can be a primitive type (like number, string, boolean), an
+        object, or an array.
+        <br />
+        Syntax:
+        <br />
+        const [state, setState] = useState(initialState);
+      </p>
+
+      <p>
         <b>
-          9.7 What is the purpose of the useEffect hook in React, and when would
-          you use it?
+          What is the purpose of the useEffect hook in React, and when would you
+          use it?
         </b>
+      </p>
+      <p>
+        The useEffect hook in React allows you to perform side effects in
+        functional components. Side effects are actions that affect something
+        outside the component (e.g., data fetching, subscriptions, DOM
+        manipulation, etc.). Purpose of useEffect: It lets you run code after
+        the component renders or updates. In class components, side effects were
+        handled in lifecycle methods like componentDidMount, componentDidUpdate,
+        and componentWillUnmount. With useEffect, you can handle all these with
+        a single function. useEffect is most commonly used for: Fetching data
+        from an API. Subscribing to or unsubscribing from events. Manipulating
+        the DOM directly. Setting up timers (like setTimeout or setInterval).
+        Cleaning up resources when a component unmounts.
       </p>
     </div>
   );
